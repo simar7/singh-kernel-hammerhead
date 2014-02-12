@@ -3,7 +3,7 @@
  *  Copyright (C) 2013 - 2014 Simarpreet Singh <simar@linux.com>
  *
  *
- *   Initial Implemenation: 
+ *   Initial Implementation: 
  *   Copyright (C) 2002 - 2003 Dominik Brodowski <linux@brodo.de>
  *
  *
