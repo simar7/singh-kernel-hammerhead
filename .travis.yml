@@ -1,0 +1,2 @@
+script: ./cleanup.sh
+script: ./make_kernel.sh hammerhead_defconfig arm-eabi
