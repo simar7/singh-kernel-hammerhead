@@ -1,0 +1,8 @@
+before_script:
+    - git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6 
+    - export PATH=$(pwd)/arm-eabi-4.6/bin:$PATH
+    - arm-eabi-gcc --version
+    - export ARCH=arm
+    - export SUBARCH=arm
+    - export CROSS_COMPILE=arm-eabi-
+script: ./make_kernel.sh hammerhead_defconfig arm-eabi-
